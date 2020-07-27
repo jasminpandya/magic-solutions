@@ -1,0 +1,21 @@
+{
+  "animals": {
+    "dogs": {
+      "poodle": {},
+      "labrador": {},
+      "hound": {}
+    },
+    "cats": {
+      "tabby": {},
+      "siamese": {}
+    },
+    "birds": {
+      "parrot": {
+        "grey": {}
+      }
+    }
+  },
+  "plants": {
+    "trees": {}
+  }
+}
