@@ -1,0 +1,43 @@
+// Implementation of multiple email senders
+
+public class EmailDetails{
+    // properties
+    private String to;
+    private String from:
+    private String cc;
+    private String bcc;
+    private string body;
+    private List<Attachment> attachments;
+// constructure
+// getters & setter
+// toString & hashCode
+}
+
+
+public interface EmailSender{
+    boolean send(EmailDetails details)
+}
+
+public class MessageCenter implements EmailSender(){
+    boolean send(EmailDetails details){
+        // message center implementation
+    }
+}
+
+public class CommonService implements EmailSender(){
+    boolean send(EmailDetails details){
+        // common service implementation
+    }
+}
+
+public class NativeService implements EmailSender(){
+    boolean send(EmailDetails details){
+        // native implementation using java mail
+    }
+}
+
+public EmailSenderFactory {
+    EmailSender getMailSender(string mailService){
+        // logic to decide mailsender based on mailService
+    }
+}

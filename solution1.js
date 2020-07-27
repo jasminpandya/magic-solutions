@@ -1,11 +1,8 @@
 const fs = require('fs');
 try {
     // read raw data from file
-    // const startDate = new Date();
-    // console.log('reading started @' + startDate);
     const rawdata = fs.readFileSync('data/q1data.json');
-    // const endDate = new Date();
-    // console.log('reading finished @' + endDate);
+
     // convert data to json array
     const data = JSON.parse(rawdata);
 
