@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <style type="text/css">
+        .absolute {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+
+        .mydiv1 {
+            width: 10em;
+            height: 10em;
+            margin-top: -5em;
+            /*set to a negative number 1/2 of your height*/
+            margin-left: -5em;
+            /*set to a negative number 1/2 of your width*/
+            /* border: 2.5em solid red; */
+            background-color: red;
+        }
+
+        .mydiv2 {
+            width: 7.5em;
+            height: 7.5em;
+            margin-top: -3.75em;
+            /*set to a negative number 1/2 of your height*/
+            margin-left: -3.75em;
+            /*set to a negative number 1/2 of your width*/
+            /* border: 2.5em solid red; */
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="absolute mydiv1">
+        <div class="absolute mydiv2"></div>
+    </div>
+</body>
+
+</html>
